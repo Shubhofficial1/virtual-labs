@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+			"Experiment": "To find out the thermal conductivity of liquids",     
+			"Lab": "(KCH-352) Heat Transfer Operation Lab",               
+			"Discipline": "Chemical Engineering",				 
+			"Technology": "html, css, javascript"         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "Manish Kaushik",         
+      "Institute": "Noida Institute of Engineering and Technology, Greater Noida",         
+      "InstituteAcronym": "NIET, Greater Noida"   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "Shubham Kumar",             
+      "Institute": "Noida Institute of Engineering and Technology, Greater Noida",               
+			"InstituteAcronym": "NIET, Greater Noida"         
+       },
+
+       {       
+			"Contributer": "Arpit Langia",              
+      "Institute": "Noida Institute of Engineering and Technology, Greater Noida",               
+			"InstituteAcronym": "IET, Greater Noida"         
+       },
+
+       {       
+			"Contributer": "Diwakar Patel",             
+      "Institute": "Noida Institute of Engineering and Technology, Greater Noida",               
+			"InstituteAcronym": "IET, Greater Noida"         
+       },
+
+       {       
+			"Contributer": "Shristi Agarwal",              
+      "Institute": "Noida Institute of Engineering and Technology, Greater Noida",               
+			"InstituteAcronym": "IET, Greater Noida"         
+       }
+   ]
+
+}

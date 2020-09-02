@@ -1,0 +1,7 @@
+1.	Fill the liquid cell with the sample liquid (glycerol/water/mercury) through the inlet port keeping the apparatus tilted towards upper side so that there is complete removal of air through the outlet port. Liquid filling should be continued till there is complete removal of air and, also liquid glycerol comes out of the outlet port. Close the outlet port followed by inlet port.
+2.	Allow cold water to flow through the cold-water inlet.
+3.	Start the electric heater to heat hot plate. Adjust the voltage of hot plate heater in the range of 10 to 50 volts.
+4.	Adjust the cold-water flow rate such that there is no applicable change the outlet temperature of cold water (there should be minimum change).
+5.	Go on recording the thermocouple readings on hot side as well as on cold side. And once steady state is achieved (may be after 30-60 min): (steady state is reached when there is no appreciable change in the thermocouple readings (Th1 , Th2 , Th3 i.e. T1 , T2 , T3 on temperature indicator) on the hot side and three thermocouple readings (Tc1, Tc2, Tc3 i.e. T4, T5, T6 on temperature indicator) on the cold side along with the voltmeter (V) and ammeter (A) readings.
+6.	Stop the electric supply to the heater, and continue with the supply of cold water till there is decrease in temperature of hot plate (may be for another 30- 40mm).
+7.	Open the liquid outlet valve slightly in the downward tilt position and drain the sample liquid in a receiver, keeping inlet port open.

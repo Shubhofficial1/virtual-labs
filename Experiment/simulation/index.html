@@ -1,0 +1,174 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Labs</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- header text -->
+    <div class="heading">Thermal Conductivity of a Liquid sample</div>
+    <div class="row">
+        <!-- first card -->
+        <div class="card">
+            <div class="card-header">
+              <h1>Variables </h1>
+            </div>
+            <br>
+            <br>
+            <div class="card-body">
+              <div class="row">     
+            <p>Select Sample </p>
+            <input type="radio" id="glycerin" name="sample" value="glycerin"  checked>
+            <label for="male">Glycerin</label>
+            <input type="radio" id="freshwater" name="sample" value="freshwater">
+            <label for="female">Fresh Water</label>
+            <input type="radio" id="mercury" name="sample" value="mercury">
+            <label for="other">Mercury</label>
+          </div>
+          <br><br>
+                <div class="row">
+                    <div>Water Supply </div>
+                    <div>
+                      <input type="checkbox" id="waterCheckBox" onclick="watercheck()" checked>
+                    </div>
+                    <!-- <div><label class="switch">
+                        <input type="checkbox" checked  id="waterCheckBox">
+                        <span class="slider round"></span>
+                      </label></div> -->
+                      <div>Machine On </div>
+                      <div>
+                        <input type="checkbox" id="machineCheckBox" onclick="machinecheck()" checked>
+                      </div>
+                    <!-- <div><label class="switch">
+                        <input type="checkbox" checked id="machineCheckBox" >
+                        <span class="slider round"></span>
+                      </label></div> -->
+                </div>
+                <br>
+                <br>
+
+                <div class="row"> 
+                  Enter Voltage(V) :
+                    <span id="rangeValue">12</span><br>
+                    <input  class="range" type="range" name="" value="12" min="12" max="50" onchange="rangeSlide(this.value)" 
+                    onmousemove="rangeSlide(this.value)">
+                </div>
+                <br><br>
+    
+                <div class="row">
+                  Value of Current (A) :
+                  <p id="current">1</p>
+                  <div style="min-width: 400px;"></div>
+                </div>
+                <br>
+
+              <!-- <a href="#" class="btn" onclick="displayRadioValue()">Start simulator</a> -->
+
+              <button id="btndisable" class="button" onclick="displayRadioValue()" > Start simulator</button>
+            </div>
+          </div>
+
+     
+
+      <div class="card">
+        <div class="card-header">
+          <h1>Simulator</h1>
+        </div>
+        <div class="card-body">
+              <div class="w3-content w3-section" style="max-width:500px">
+
+                <img class="mySlides" src="images/g0.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/g1.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/g2.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/g3.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/g4.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/g5.png" style="width:100%;display: none;">
+
+
+                <img class="mySlides1" src="images/f0.png" style="width:100%;display: none;" >
+                <img class="mySlides1" src="images/f1.png" style="width:100%;display: none;">
+                <img class="mySlides1" src="images/f2.png" style="width:100%;display: none;">
+                <img class="mySlides1" src="images/f3.png" style="width:100%;display: none;">
+                <img class="mySlides1" src="images/f4.png" style="width:100%;display: none;">
+                <img class="mySlides1" src="images/f5.png" style="width:100%;display: none;">
+
+
+                <img class="mySlides2" src="images/m0.png" style="width:100%;display: none;" >
+                <img class="mySlides2" src="images/m1.png" style="width:100%;display: none;">
+                <img class="mySlides2" src="images/m2.png" style="width:100%;display: none;">
+                <img class="mySlides2" src="images/m3.png" style="width:100%;display: none;">
+                <img class="mySlides2" src="images/m4.png" style="width:100%;display: none;">
+                <img class="mySlides2" src="images/m5.png" style="width:100%;display: none;">
+              </div>   
+        </div>
+      </div>
+
+
+
+
+       <!-- third  card -->
+
+       <div class="card">
+        <div class="card-header">
+          <h1>Results</h1>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <h4 >Formula used :</h4>
+            <img src="images/thermal.jpg" width="50%">
+          </div>
+          <br>
+          <div class="row">
+            <h4>Hot plate Teperature(T2) :</h4>
+            <h3 id="demo2"></h3>
+          </div>
+          <br>
+          <div class="row">
+            <h4>Cold plate Teperature(T1) :</h4>
+            <h3 id="demo3"></h3>
+          </div>
+          <br>
+          <div class="row">
+            <h4>Thickness of the sample(Δx) : </h4>
+            <h3 id="demo4"></h3>
+          </div>
+          <br>
+          <div class="row">
+            <h4>Radius of plate(r) :</h4>
+            <h3 id="demo5"></h3>
+          </div>
+          <br>
+          <div class="row">
+            <h4 >Thermal conductivity (k) :</h4>
+            <h3 id="demo1"></h3>
+          </div>
+            <br>
+          <button class="button1" onclick="verify()">Verify Your result</button>
+ 
+        </div>
+      </div>
+
+      <!-- forth card -->
+
+      <div class="card">
+        <div class="card-header">
+          <h1>Graph</h1>
+        </div>
+        <div class="card-body">
+          <img id="graph" style="width: 100%;" >
+ 
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+</body>
+</html>

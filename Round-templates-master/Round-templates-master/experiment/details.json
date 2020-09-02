@@ -1,0 +1,46 @@
+{
+
+   "details": [
+       {
+			"Experiment": "",     
+			"Lab": "",               
+			"Discipline": "",				 
+			"Technology": ""         
+       }
+   ],
+
+   "developer": [
+       {       
+      "Developer": "",         
+      "Institute": "",         
+      "InstituteAcronym": ""   
+       }
+   ],
+
+   "contributer": [
+       {       
+			"Contributer": "",             
+      "Institute": "",               
+			"InstituteAcronym": ""         
+       },
+
+       {       
+			"Contributer": "",              
+      "Institute": "",               
+			"InstituteAcronym": ""         
+       },
+
+       {       
+			"Contributer": "",             
+      "Institute": "",               
+			"InstituteAcronym": ""         
+       },
+
+       {       
+			"Contributer": "",              
+      "Institute": "",               
+			"InstituteAcronym": ""         
+       }
+   ]
+
+}
