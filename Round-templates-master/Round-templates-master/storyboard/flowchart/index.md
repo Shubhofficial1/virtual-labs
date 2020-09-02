@@ -1,1 +1,0 @@
-### This folder contains flowchart used in Round 2 documentation.

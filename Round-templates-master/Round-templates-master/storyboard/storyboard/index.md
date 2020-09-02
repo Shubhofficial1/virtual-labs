@@ -1,1 +1,0 @@
-### This folder contains storyboard used in Round 2 documentation.
